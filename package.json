@@ -1,0 +1,20 @@
+{
+    "name": "to-js-date",
+    "version": "1.0.1",
+    "description": "Simply takes either a date, string or firebase timestamp and returns a js date object",
+    "main": "./src/index.js",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "Henning Berge",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^4.0.3"
+    },
+    "files": [
+        "src"
+    ],
+    "types": "./src/index.d.ts"
+}
